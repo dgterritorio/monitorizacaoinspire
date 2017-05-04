@@ -9,5 +9,5 @@ Aplicação XSLT desenvolvida para a monitorização INSPIRE 2016 de forma autom
 <li>SNIG - Sistema Nacional de Informação Geográfica</li>
 </ul>
 </p>
-O objectivo desta aplicação consistiu na produção de listagens de CSDG
-<a href="IndicadoresCDG_INSPIRE_v4.xsl">xsl para listagem CDG</a>
+O objectivo desta aplicação consistiu na produção de listagens de CSDG para o cálculo de indicadores INSPIRE (formulários da IONET). Esta aplicação consiste numa cadeia de processos descrita em <a href="monitorizacao Activity Diagram.svg">diagrama de actividades da monitorização</a>
+
