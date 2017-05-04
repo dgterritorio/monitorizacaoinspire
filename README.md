@@ -31,3 +31,4 @@ O primeiro passo consiste em descarregar os metadados de CSDG do SNIG para um fi
 <code> curl -H "Content-Type:text/xml" -d @CSW_INSPIRECORE.xml -o CSW_INSPIRECORE_Response.xml http://snig.dgterritorio.pt/geoportal/csw/discovery</code>
 </p>
 <p>Seguidamente é aplicado ao ficheiro CSW_INSPIRECORE_Response.xml os ficheiros XSL, <a href="IndicadoresCDG_INSPIRE_v4.xsl">IndicadoresCDG_INSPIRE_v4.xsl</a> e  <a href="IndicadoresSDG_INSPIRE_v6.xsl">IndicadoresSDG_INSPIRE_v6.xsl</a>, respectivamente para a listagem dos CDG e depois para os SDG. Para este processamento foi utilizada a aplicação XML Spy (https://www.altova.com/xmlspy.html).</p>
+<p>Finalmente os ficheiros XML resultantes são convertidos para CSV, por exemplo, através de http://www.convertcsv.com/xml-to-csv.htm.
